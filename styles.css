@@ -4,3 +4,19 @@ body {
     color: #333333;
     background-color: #dddddd;
 }
+
+@media (hover: hover) {
+    .tooltip {
+        display: none;
+    }
+    
+    h1:hover .tooltip {
+        display: inline-block;
+    }
+}
+
+@media (pointer: coarse) {
+    button {
+        font-size: x-large;
+    }
+}
